@@ -10,3 +10,21 @@
 	padding: 20px;
 	border: solid blue 3px;
 }
+
+/*relative by itself is like static*/
+.relative1 {
+	position: relative;
+}
+
+
+/* will go up 40 and to the right 20 
+ * from where would have naturally gone if
+ * it were static
+ */
+.relative2 {
+	position: relative;
+	top: -40px;
+	left: 20px;
+	background-color: gray;
+	width: 300px;
+}
